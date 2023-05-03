@@ -1,0 +1,200 @@
+body {
+    background-color: rgb(249, 249, 204);
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.alan {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    color: midnightblue;
+}
+
+.header div {
+    width: 100%;
+    margin-top: 1%;
+}
+.isim {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.navbarsol {
+    text-align: left;
+    margin-left: 5%;
+
+}
+.navbarorta {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbarsag {
+    text-align: right;
+    margin-right: 5%;
+}
+
+.navbarorta > a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #03045E;
+}
+
+.meslek {
+    display: flex;
+}
+.meslek .resim {
+    margin-left: 300px;
+    margin-top: 100px;
+    border-radius: 70% 50% ;
+    border-style:solid;
+}
+
+.meslek .slash {
+    position: absolute;
+    left: 65%;
+    top: 75%;
+}
+
+.meslek .arti {
+    position: absolute;
+    left: 85%;
+    top: 25%
+}
+
+.meslek > p {
+    font-weight:500;
+    line-height: 2;
+    margin-top: 11%;
+    font-size: 28px;
+    color: midnightblue;
+}
+
+.tanitim {
+    font-size: 100px;
+    line-height: 1;
+    color:midnightblue;
+
+}
+
+.buton {
+    background-color:#ff000000;
+    width: 150px;
+    font-size: 15px; letter-spacing: 2px;
+    border: 1px solid;
+    box-shadow: 5px 5px 5px 0px rgb(255, 221, 0);
+    color:#474306;
+    padding: 15px;
+    border-radius: 3px;
+    cursor:pointer;
+}
+
+
+.resim {
+    margin-left: 85%;
+}
+
+.hakkinda {
+    margin-top: 20%;
+    margin-bottom: 1%;
+    font-size: 100px;
+    font-weight: 800;
+    color: #F7F197;
+}
+
+
+.aciklama1 {
+    margin-bottom: 10%;
+    width: 68%;
+    font-weight: 400;
+    font-size: 24px;
+    color: #03045E;
+}
+
+.tarih {
+    font-size: 24px;
+    font-weight: 600;
+    color: #03045E;
+    width: 60%;
+    margin-left: 30%;
+}
+
+.metin {
+    font-size: 24px;
+    font-weight: 400;
+    color: #03045E;
+    margin-left: 30%;
+}
+
+.work {
+    margin-top: 10%;
+    margin-bottom: 1%;
+    font-size: 100px;
+    font-weight: 800;
+    color: #F7F197;
+}
+
+.metin2 {
+    margin-bottom: 10%;
+    width: 68%;
+    font-weight: 400;
+    font-size: 24px;
+    color: #03045E;
+}
+
+.altbolum {
+    display: flex;
+}
+
+.altbolum .work2 {
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-left: 15%;
+}
+
+.november {
+    font-size: 14px;
+    color: #03045E;
+}
+.study {
+    font-size: 24px;
+    color: #03045E;
+}
+.study2 {
+    font-size: 18px;
+    color: #03045E;
+    font-weight: 400;
+}
+
+.contactbaslik {
+    margin-bottom: 1%;
+    font-size: 100px;
+    font-weight: 800;
+    color: #F7F197;
+}
+
+.contact {
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.context {
+    color: #03045E;
+    width: 55%;
+    font-size: 24px;
+    margin-left: 5%;
+}
+
+.link {
+    text-decoration: none;
+    color: #03045E;
+}
